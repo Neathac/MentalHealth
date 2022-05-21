@@ -26,5 +26,4 @@ colnames(weed_use)
 Conneticut <- weed_use[ weed_use$Variable == "Marijuana Use" & weed_use$Region == "Connecticut", ]
 Conneticut_first_use <- Conneticut[Conneticut$Marijuana.Use == "First Use of Marijuana"]
 yearly_values <- table(Conneticut$Year[Conneticut$Marijuana.Use == "First Use of Marijuana"], Conneticut$Value[Conneticut$Marijuana.Use == "First Use of Marijuana"])
-print(yearly_values)
-ggplot(Conneticut, aes(Value))
+
