@@ -86,4 +86,4 @@ round(cocaine_chisq$residuals, 3)
 round(pervitin_chisq$residuals, 3)
 
 corrplot(cocaine_chisq$residuals, is.cor = FALSE)
-corrplot(cocaine_chisq$residuals, is.cor = FALSE)
+corrplot(pervitin_chisq$residuals, is.cor = FALSE)
